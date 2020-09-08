@@ -65,6 +65,12 @@
   background-position: center;
   padding: 30px;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.chat__body::-webkit-scrollbar {
+  display: none;
 }
 
 .chat__footer {
